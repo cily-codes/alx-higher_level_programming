@@ -23,7 +23,7 @@ int is_palindrome(listint_t **head)
 	{
 		return (1);
 	}
-    
+
 	start = *head;
 	len = listint_len(start);
 	len_cyc = len * 2;
